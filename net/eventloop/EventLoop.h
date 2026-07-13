@@ -1,0 +1,7 @@
+namespace net
+{
+    class EventLoop
+    {
+
+    };
+}
