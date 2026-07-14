@@ -1,0 +1,14 @@
+# 排除 clangd 产生的本地缓存目录
+.cache/
+.clangd/
+
+# 排除编译产生的二进制文件、目标文件和可执行程序
+*.o
+*.a
+*.so
+build/
+bin/
+
+# 排除 IDE 配置文件
+.vscode/
+.idea/

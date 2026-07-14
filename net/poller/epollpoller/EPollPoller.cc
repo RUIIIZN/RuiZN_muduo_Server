@@ -1,5 +1,4 @@
 #include <assert.h>
-#include <sys/epoll.h>
 #include <unistd.h>
 #include "EPollPoller.h"
 #include "../../../base/log/Logging.h"
@@ -72,10 +71,19 @@ namespace net
                 assert(channels_[channel->fd()] == channel);
             }
             update(EPOLL_CTL_ADD,channel);
+            channel->set_index(kAdded);
         }
         else
         {
-            update(EPOLL_CTL_MOD,channel);
+            if(channel->isNoneEvent())
+            {
+                update(EPOLL_CTL_DEL,channel);
+                channel->set_index(kDeleted);
+            }
+            else
+            {
+                update(EPOLL_CTL_MOD,channel);
+            }
         }
     }
 
@@ -88,6 +96,7 @@ namespace net
             update(EPOLL_CTL_DEL,channel);
         }
         channels_.erase(channel->fd());
+        channel->set_index(kNew);
     }
 
     const char* EPollPoller::operationToString(int op)
@@ -110,7 +119,7 @@ namespace net
         for (int i = 0; i < numEvents; ++i)
         {
             Channel* channel = static_cast<Channel*>(events_[i].data.ptr);
-            channel->setrevents(events_[i].events);
+            channel->set_revents(events_[i].events);
             activeChannels->push_back(channel);
         }
     }
