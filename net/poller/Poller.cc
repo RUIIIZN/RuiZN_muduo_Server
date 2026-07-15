@@ -11,12 +11,12 @@ Poller::Poller(EventLoop* loop)
 
 Poller::~Poller() = default;
 
-bool Poller::hasChannel(Channel* channel) const
+bool Poller::hasChannel(Channel* channel) const//判断Channel是否在poller管理中
 {
   ChannelMap::const_iterator it = channels_.find(channel->fd());
   return it != channels_.end() && it->second == channel;
 }
-Poller* Poller::newDefaultPoller(EventLoop* loop)
+Poller* Poller::newDefaultPoller(EventLoop* loop)//创建默认的poller
 {
   return new EPollPoller(loop);
 }

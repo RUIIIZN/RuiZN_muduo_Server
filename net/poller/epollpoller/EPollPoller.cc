@@ -4,11 +4,12 @@
 #include "../../../base/log/Logging.h"
 
 class Channel;
-using namespace muduo;
+
+using namespace base;
 
 namespace net
 {
-    int createEpoll()
+    int createEpoll()//创建epoll文件描述符
     {
         int epollfd = ::epoll_create1(EPOLL_CLOEXEC);
         if (epollfd < 0)
@@ -28,9 +29,9 @@ namespace net
     {
         ::close(epollfd_);
     }
-    Timestamp EPollPoller::poll(int timeoutMs, ChannelList* activeChannels) 
+    Timestamp EPollPoller::poll(int timeoutMs, ChannelList* activeChannels) //开始轮询事件
     {
-        int res = ::epoll_wait(epollfd_,&events_[0],events_.size(),kTimeoutDefaultMs);
+        int res = ::epoll_wait(epollfd_,&events_[0],events_.size(),timeoutMs);
         if (res < 0)
         {
             LOG_ERROR << "epoll_wait error";
@@ -38,7 +39,7 @@ namespace net
         }
         else if(res == 0)
         {
-            LOG_DEBUG << "epoll_wait timeout";
+            LOG_TRACE << "epoll_wait timeout";
             return Timestamp::now();
         }
         else
@@ -52,7 +53,7 @@ namespace net
         }
     }
 
-    void EPollPoller::updateChannel(Channel* channel) 
+    void EPollPoller::updateChannel(Channel* channel) //将Channel添加到poller管理中
     {
         // 针对channel的index状态进行不同处理:
         // KNew 尚未在事件监听器
@@ -87,7 +88,7 @@ namespace net
         }
     }
 
-    void EPollPoller::removeChannel(Channel* channel) 
+    void EPollPoller::removeChannel(Channel* channel) //将Channel从poller管理中移除
     {
         assert(channels_.find(channel->fd()) != channels_.end());
         assert(channels_[channel->fd()] == channel);
@@ -99,7 +100,7 @@ namespace net
         channel->set_index(kNew);
     }
 
-    const char* EPollPoller::operationToString(int op)
+    const char* EPollPoller::operationToString(int op)//将操作码转换为字符串
     {
         switch (op)
         {
@@ -114,7 +115,7 @@ namespace net
         }
     }
 
-    void EPollPoller::fillActiveChannels(int numEvents, ChannelList* activeChannels) const
+    void EPollPoller::fillActiveChannels(int numEvents, ChannelList* activeChannels) const//将所有活跃的Channel添加到activeChannels中
     {
         for (int i = 0; i < numEvents; ++i)
         {
@@ -124,7 +125,7 @@ namespace net
         }
     }
 
-    void EPollPoller::update(int operation, Channel* channel)
+    void EPollPoller::update(int operation, Channel* channel)//将Channel添加到poller管理中
     {
         int fd = channel->fd();
         int events = channel->events();

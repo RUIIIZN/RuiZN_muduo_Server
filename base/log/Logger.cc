@@ -5,10 +5,10 @@
 #include <errno.h>
 #include <string.h>
 
-namespace muduo
+namespace base
 {
 
-Logger::LogLevel g_logLevel = Logger::INFO;
+Logger::LogLevel g_logLevel = Logger::TRACE;
 
 const char* LogLevelName[Logger::NUM_LOG_LEVELS] =
 {

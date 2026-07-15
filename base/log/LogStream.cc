@@ -1,6 +1,6 @@
 #include "LogStream.h"
 
-using namespace muduo;
+using namespace base;
 
 LogStream& LogStream::operator<<(short v)
 {

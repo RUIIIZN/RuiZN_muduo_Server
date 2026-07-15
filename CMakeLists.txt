@@ -1,41 +1,58 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.10)
+project(RuiZN_Server CXX)
 
-project(RuiZN_Server C CXX)
-
+# 支持 C++17 及以上标准
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -O2 -g")
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
+# -------------------------------------------------------------------
+# 1. 头文件包含路径 (Include Directories)
+# -------------------------------------------------------------------
+# 这样你在代码里就可以直接写 #include "base/time/Timestamp.h" 或 "net/timer/Timer.h"
 include_directories(
-    ${PROJECT_SOURCE_DIR}/base
-    ${PROJECT_SOURCE_DIR}/net
     ${PROJECT_SOURCE_DIR}
 )
 
-set(BASE_SOURCES
-    base/log/LogStream.cc
-    base/log/Logger.cc
-    base/time/Timestamp.cc
+# -------------------------------------------------------------------
+# 2. 收集 base 模块的源文件
+# -------------------------------------------------------------------
+file(GLOB_RECURSE BASE_SOURCES 
+    "base/*.cc"
+    "base/*.cpp"
 )
 
-set(NET_SOURCES
-    net/poller/Poller.cc
-    net/poller/epollpoller/EPollPoller.cc
-    net/channel/Channel.cc
-    net/eventloop/EventLoop.cc
+# -------------------------------------------------------------------
+# 3. 收集 net 模块的源文件
+# -------------------------------------------------------------------
+file(GLOB_RECURSE NET_SOURCES 
+    "net/*.cc"
+    "net/*.cpp"
 )
 
+# -------------------------------------------------------------------
+# 4. 生成静态库
+# -------------------------------------------------------------------
+# 编译基础库 base
 add_library(base STATIC ${BASE_SOURCES})
+
+# 编译网络库 net
 add_library(net STATIC ${NET_SOURCES})
 
-add_executable(test_all tests/test_all.cc)
-target_link_libraries(test_all net base)
+# -------------------------------------------------------------------
+# 5. 编译测试程序
+# -------------------------------------------------------------------
+# 根据你截图的目录结构，test.cc 位于 examples/test.cc 
+# (如果实际在 tests/test.cc，请将路径改为 tests/test.cc)
+add_executable(test examples/test.cc)
 
+# 链接静态库。注意：net 依赖 base，所以 net 写在前面，base 写在后面
+target_link_libraries(test net base pthread)
+
+# -------------------------------------------------------------------
+# 6. 一键运行命令：make run
+# -------------------------------------------------------------------
 add_custom_target(run
-    COMMAND test_all
-    DEPENDS test_all
+    COMMAND ./test
+    DEPENDS test
     WORKING_DIRECTORY ${PROJECT_BINARY_DIR}
 )

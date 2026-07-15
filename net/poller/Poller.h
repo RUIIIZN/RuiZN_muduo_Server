@@ -25,7 +25,7 @@ class Poller
         typedef std::vector<Channel*> ChannelList;
         Poller(EventLoop* loop);
         virtual ~Poller();
-        virtual net::Timestamp poll(int timeoutMs, ChannelList* activeChannels) = 0;
+        virtual base::Timestamp poll(int timeoutMs, ChannelList* activeChannels) = 0;
         virtual void updateChannel(Channel* channel) = 0;
         virtual void removeChannel(Channel* channel) = 0;
         virtual bool hasChannel(Channel* channel) const;

@@ -4,7 +4,7 @@
 #include <cstring>
 #include <algorithm>
 
-namespace muduo
+namespace base
 {
 
 const int kSmallBuffer = 4096;

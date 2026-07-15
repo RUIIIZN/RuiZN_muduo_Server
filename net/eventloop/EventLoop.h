@@ -5,24 +5,24 @@
 #include <functional>
 #include <thread>
 #include <vector>
-#include "../../base/time/Timestamp.h"
 #include <memory>
 #include <any>
 #include <mutex>
 #include <unistd.h>
 
-//#include "muduo/base/Mutex.h"
-//#include "muduo/base/CurrentThread.h"
-//#include "muduo/net/Callbacks.h"
-//#include "muduo/net/TimerId.h"
-//#include <boost/any.hpp>
 
+#include "../../base/time/Timestamp.h"
+#include "../../base/log/Logging.h"
+#include "../../net/timer/TimerId.h"
+//#include "muduo/base/CurrentThread.h"
+
+using base::Timestamp;
 namespace net
 {
 
 class Channel;
 class Poller;
-//class TimerQueue;
+class TimerQueue;
 
 class EventLoop 
 {
@@ -47,7 +47,7 @@ class EventLoop
 //   TimerId runAt(Timestamp time, TimerCallback cb);
 //   TimerId runAfter(double delay, TimerCallback cb);
 //   TimerId runEvery(double interval, TimerCallback cb);
-//   void cancel(TimerId timerId);
+  void cancelTimer(TimerId timerId);
 
 
   void wakeup();
@@ -96,7 +96,7 @@ class EventLoop
 
   std::unique_ptr<Poller> poller_;//事件监控器
 
-  //std::unique_ptr<TimerQueue> timerQueue_;//定时器
+  std::unique_ptr<TimerQueue> timerQueue_;//定时器
 
   int wakeupFd_;//唤醒事件循环的文件描述符
 

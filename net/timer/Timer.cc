@@ -1,0 +1,20 @@
+#include "Timer.h"
+namespace net
+{
+
+std::atomic<int64_t> Timer::s_numCreated_(0);
+
+void Timer::restart(Timestamp now)//根据当前系统时间重新启动定时任务
+{
+  if (repeat_)
+  {
+    expiration_ = addTime(now, interval_);
+  }
+  else
+  {
+    expiration_ = Timestamp::invalid();
+  }
+}
+
+
+}  // namespace net

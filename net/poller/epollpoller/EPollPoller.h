@@ -13,7 +13,7 @@ class EPollPoller : public Poller
         EPollPoller(EventLoop* loop);
         ~EPollPoller() override;
 
-        net::Timestamp poll(int timeoutMs, ChannelList* activeChannels) override;
+        base::Timestamp poll(int timeoutMs, ChannelList* activeChannels) override;
 
         void updateChannel(Channel* channel) override;
 

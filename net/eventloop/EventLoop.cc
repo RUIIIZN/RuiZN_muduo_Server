@@ -6,13 +6,14 @@
 
 #include <algorithm>
 #include <assert.h>
-#include <signal.h>
 #include <sys/eventfd.h>
 #include <sys/types.h>
 #include <unistd.h>
 #include "../channel/Channel.h"
 #include "../poller/Poller.h"
-using namespace muduo;
+#include "../timer/TimerQueue.h"
+
+using namespace base;
 
 class Channel;
 class Poller;
@@ -67,7 +68,7 @@ EventLoop::EventLoop()
     iteration_(0),
     threadId_(::gettid()),
     poller_(Poller::newDefaultPoller(this)),
-    /*timerQueue_(new TimerQueue(this)),*/
+    timerQueue_(new TimerQueue(this)),
     wakeupFd_(createEventfd()),
     wakeupChannel_(new Channel(this, wakeupFd_)),
     currentActiveChannel_(nullptr)
@@ -190,14 +191,14 @@ size_t EventLoop::queueSize()
 //   return timerQueue_->cancel(timerId);
 // }
 
-void EventLoop::updateChannel(Channel* channel)
+void EventLoop::updateChannel(Channel* channel)//将Channel添加到poller管理中
 {
   assert(channel->ownerLoop() == this);
   assertInLoopThread();
   poller_->updateChannel(channel);
 }
 
-void EventLoop::removeChannel(Channel* channel)
+void EventLoop::removeChannel(Channel* channel)//将Channel从poller管理中移除
 {
   assert(channel->ownerLoop() == this);
   assertInLoopThread();
@@ -223,7 +224,7 @@ void EventLoop::removeChannel(Channel* channel)
   poller_->removeChannel(channel);
 }
 
-bool EventLoop::hasChannel(Channel* channel)
+bool EventLoop::hasChannel(Channel* channel)//判断Channel是否在poller管理中
 {
   assert(channel->ownerLoop() == this);
   assertInLoopThread();
