@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbase.a CMakeFiles/base.dir/base/log/LogStream.cc.o CMakeFiles/base.dir/base/log/Logger.cc.o CMakeFiles/base.dir/base/time/Timestamp.cc.o
+/usr/bin/ranlib libbase.a
