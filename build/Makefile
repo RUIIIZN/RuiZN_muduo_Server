@@ -264,29 +264,101 @@ examples/test.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/examples/test.cc.s
 .PHONY : examples/test.cc.s
 
-net/acceptor/Accept.o: net/acceptor/Accept.cc.o
-.PHONY : net/acceptor/Accept.o
+net/Tcp/TcpClient.o: net/Tcp/TcpClient.cc.o
+.PHONY : net/Tcp/TcpClient.o
 
 # target to build an object file
-net/acceptor/Accept.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/acceptor/Accept.cc.o
-.PHONY : net/acceptor/Accept.cc.o
+net/Tcp/TcpClient.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/Tcp/TcpClient.cc.o
+.PHONY : net/Tcp/TcpClient.cc.o
 
-net/acceptor/Accept.i: net/acceptor/Accept.cc.i
-.PHONY : net/acceptor/Accept.i
+net/Tcp/TcpClient.i: net/Tcp/TcpClient.cc.i
+.PHONY : net/Tcp/TcpClient.i
 
 # target to preprocess a source file
-net/acceptor/Accept.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/acceptor/Accept.cc.i
-.PHONY : net/acceptor/Accept.cc.i
+net/Tcp/TcpClient.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/Tcp/TcpClient.cc.i
+.PHONY : net/Tcp/TcpClient.cc.i
 
-net/acceptor/Accept.s: net/acceptor/Accept.cc.s
-.PHONY : net/acceptor/Accept.s
+net/Tcp/TcpClient.s: net/Tcp/TcpClient.cc.s
+.PHONY : net/Tcp/TcpClient.s
 
 # target to generate assembly for a file
-net/acceptor/Accept.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/acceptor/Accept.cc.s
-.PHONY : net/acceptor/Accept.cc.s
+net/Tcp/TcpClient.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/Tcp/TcpClient.cc.s
+.PHONY : net/Tcp/TcpClient.cc.s
+
+net/Tcp/TcpConnection.o: net/Tcp/TcpConnection.cc.o
+.PHONY : net/Tcp/TcpConnection.o
+
+# target to build an object file
+net/Tcp/TcpConnection.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/Tcp/TcpConnection.cc.o
+.PHONY : net/Tcp/TcpConnection.cc.o
+
+net/Tcp/TcpConnection.i: net/Tcp/TcpConnection.cc.i
+.PHONY : net/Tcp/TcpConnection.i
+
+# target to preprocess a source file
+net/Tcp/TcpConnection.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/Tcp/TcpConnection.cc.i
+.PHONY : net/Tcp/TcpConnection.cc.i
+
+net/Tcp/TcpConnection.s: net/Tcp/TcpConnection.cc.s
+.PHONY : net/Tcp/TcpConnection.s
+
+# target to generate assembly for a file
+net/Tcp/TcpConnection.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/Tcp/TcpConnection.cc.s
+.PHONY : net/Tcp/TcpConnection.cc.s
+
+net/Tcp/TcpServer.o: net/Tcp/TcpServer.cc.o
+.PHONY : net/Tcp/TcpServer.o
+
+# target to build an object file
+net/Tcp/TcpServer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/Tcp/TcpServer.cc.o
+.PHONY : net/Tcp/TcpServer.cc.o
+
+net/Tcp/TcpServer.i: net/Tcp/TcpServer.cc.i
+.PHONY : net/Tcp/TcpServer.i
+
+# target to preprocess a source file
+net/Tcp/TcpServer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/Tcp/TcpServer.cc.i
+.PHONY : net/Tcp/TcpServer.cc.i
+
+net/Tcp/TcpServer.s: net/Tcp/TcpServer.cc.s
+.PHONY : net/Tcp/TcpServer.s
+
+# target to generate assembly for a file
+net/Tcp/TcpServer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/Tcp/TcpServer.cc.s
+.PHONY : net/Tcp/TcpServer.cc.s
+
+net/acceptor/Acceptor.o: net/acceptor/Acceptor.cc.o
+.PHONY : net/acceptor/Acceptor.o
+
+# target to build an object file
+net/acceptor/Acceptor.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/acceptor/Acceptor.cc.o
+.PHONY : net/acceptor/Acceptor.cc.o
+
+net/acceptor/Acceptor.i: net/acceptor/Acceptor.cc.i
+.PHONY : net/acceptor/Acceptor.i
+
+# target to preprocess a source file
+net/acceptor/Acceptor.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/acceptor/Acceptor.cc.i
+.PHONY : net/acceptor/Acceptor.cc.i
+
+net/acceptor/Acceptor.s: net/acceptor/Acceptor.cc.s
+.PHONY : net/acceptor/Acceptor.s
+
+# target to generate assembly for a file
+net/acceptor/Acceptor.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/net/acceptor/Acceptor.cc.s
+.PHONY : net/acceptor/Acceptor.cc.s
 
 net/buffer/Buffer.o: net/buffer/Buffer.cc.o
 .PHONY : net/buffer/Buffer.o
@@ -576,9 +648,18 @@ help:
 	@echo "... examples/test.o"
 	@echo "... examples/test.i"
 	@echo "... examples/test.s"
-	@echo "... net/acceptor/Accept.o"
-	@echo "... net/acceptor/Accept.i"
-	@echo "... net/acceptor/Accept.s"
+	@echo "... net/Tcp/TcpClient.o"
+	@echo "... net/Tcp/TcpClient.i"
+	@echo "... net/Tcp/TcpClient.s"
+	@echo "... net/Tcp/TcpConnection.o"
+	@echo "... net/Tcp/TcpConnection.i"
+	@echo "... net/Tcp/TcpConnection.s"
+	@echo "... net/Tcp/TcpServer.o"
+	@echo "... net/Tcp/TcpServer.i"
+	@echo "... net/Tcp/TcpServer.s"
+	@echo "... net/acceptor/Acceptor.o"
+	@echo "... net/acceptor/Acceptor.i"
+	@echo "... net/acceptor/Acceptor.s"
 	@echo "... net/buffer/Buffer.o"
 	@echo "... net/buffer/Buffer.i"
 	@echo "... net/buffer/Buffer.s"

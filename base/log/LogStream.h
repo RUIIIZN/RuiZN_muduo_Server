@@ -140,4 +140,4 @@ void LogStream::formatInteger(T v)
     }
 }
 
-}  // namespace muduo
+}  

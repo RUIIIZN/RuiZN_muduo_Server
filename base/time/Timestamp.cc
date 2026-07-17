@@ -1,6 +1,7 @@
 #include "Timestamp.h"
 #include <sys/time.h>
 #include <ctime>
+#include "../../base/log/Logging.h"
 namespace base
 {
 
@@ -9,6 +10,9 @@ Timestamp Timestamp::now()
     struct timeval tv;
     gettimeofday(&tv, nullptr);
     int64_t seconds = tv.tv_sec;
+
+    LOG_INFO << "Timestamp now" << seconds << " " << tv.tv_usec;
+
     return Timestamp(seconds * kMicroSecondsPerSecond + tv.tv_usec);
 }
 

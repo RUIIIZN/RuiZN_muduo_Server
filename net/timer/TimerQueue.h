@@ -52,7 +52,7 @@ class TimerQueue
 
   int timerfd_;//定时fd
 
-  Channel timerfdChannel_;//定时fd对应的ChannelTimestamp
+  net::Channel timerfdChannel_;//定时fd对应的ChannelTimestamp
 
   TimerList timers_;//定时任务列表---红黑树管理---定时任务池
   ActiveTimerSet activeTimers_;//活跃定时任务池

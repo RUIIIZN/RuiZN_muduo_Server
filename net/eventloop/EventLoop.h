@@ -14,7 +14,8 @@
 #include "../../base/time/Timestamp.h"
 #include "../../base/log/Logging.h"
 #include "../../net/timer/TimerId.h"
-//#include "muduo/base/CurrentThread.h"
+#include "../timer/Timer.h"
+//#include "../../muduo/base/CurrentThread.h"
 
 using base::Timestamp;
 namespace net
@@ -43,11 +44,11 @@ class EventLoop
 
   size_t queueSize();
 
- 
-//   TimerId runAt(Timestamp time, TimerCallback cb);
-//   TimerId runAfter(double delay, TimerCallback cb);
-//   TimerId runEvery(double interval, TimerCallback cb);
-  void cancelTimer(TimerId timerId);
+  //定时器相关
+  TimerId runAt(Timestamp time, TimerCallback cb);//在指定时间执行定时任务
+  TimerId runAfter(double delay, TimerCallback cb);//在指定延迟时间执行定时任务
+  TimerId runEvery(double interval, TimerCallback cb);//在指定间隔时间执行定时任务
+  void cancelTimer(TimerId timerId);//取消定时任务
 
 
   void wakeup();
@@ -57,7 +58,7 @@ class EventLoop
 
   void assertInLoopThread();//断言当前是否处于 事件循环线程中
 
-  bool isInLoopThread() const { return threadId_ == ::getpid();}//是否在事件循环线程中
+  bool isInLoopThread() const { return threadId_ == ::gettid();}//是否在事件循环线程中 !!!!      2026.7.17应该是gettid写成了getpid，笑死
   bool callingPendingFunctors() const { return callingPendingFunctors_; }//是否正在处理任务池中的任务
   bool eventHandling() const { return eventHandling_; }//是否正在处理事件中---poller中的
 

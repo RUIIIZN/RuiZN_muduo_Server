@@ -15,7 +15,6 @@
 
 using namespace base;
 
-class Channel;
 class Poller;
 
 namespace net
@@ -169,27 +168,27 @@ size_t EventLoop::queueSize()
   return pendingFunctors_.size();
 }
 
-// TimerId EventLoop::runAt(Timestamp time, TimerCallback cb)
-// {
-//   return timerQueue_->addTimer(std::move(cb), time, 0.0);
-// }
+TimerId EventLoop::runAt(Timestamp time, TimerCallback cb)
+{
+  return timerQueue_->addTimer(std::move(cb), time, 0.0);
+}
 
-// TimerId EventLoop::runAfter(double delay, TimerCallback cb)
-// {
-//   Timestamp time(addTime(Timestamp::now(), delay));
-//   return runAt(time, std::move(cb));
-// }
+TimerId EventLoop::runAfter(double delay, TimerCallback cb)
+{
+  Timestamp time(addTime(Timestamp::now(), delay));
+  return runAt(time, std::move(cb));
+}
 
-// TimerId EventLoop::runEvery(double interval, TimerCallback cb)
-// {
-//   Timestamp time(addTime(Timestamp::now(), interval));
-//   return timerQueue_->addTimer(std::move(cb), time, interval);
-// }
+TimerId EventLoop::runEvery(double interval, TimerCallback cb)
+{
+  Timestamp time(addTime(Timestamp::now(), interval));
+  return timerQueue_->addTimer(std::move(cb), time, interval);
+}
 
-// void EventLoop::cancel(TimerId timerId)
-// {
-//   return timerQueue_->cancel(timerId);
-// }
+void EventLoop::cancelTimer(TimerId timerId)
+{
+  return timerQueue_->cancel(timerId);
+}
 
 void EventLoop::updateChannel(Channel* channel)//将Channel添加到poller管理中
 {
@@ -250,7 +249,10 @@ void EventLoop::handleRead()
 
 void EventLoop::assertInLoopThread()
 {
-  assert(isInLoopThread());
+  LOG_DEBUG << "Loop threadId_: " << threadId_ 
+              << ", Current thread tid: " << ::gettid();
+    assert(isInLoopThread());
+    LOG_DEBUG << "EventLoop assertInLoopThread" << this;
 }
 
 void EventLoop::doPendingFunctors()
