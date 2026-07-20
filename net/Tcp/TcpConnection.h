@@ -141,7 +141,6 @@ public:
   bool disconnected() const { return state_ == KDisconnected; }
 
   bool getTcpInfo(struct tcp_info*) const;
-
   std::string getTcpInfoString() const;
 
   void send(const void* message, int len);
@@ -174,12 +173,13 @@ public:
 
   void setHighWaterMarkCallback(const HighWaterMarkCallback& cb, size_t highWaterMark) { highWaterMarkCallback_ = cb; highWaterMark_ = highWaterMark; }
 
+   void setCloseCallback(const CloseCallback& cb) { closeCallback_ = cb; }
+   
   Buffer* inputBuffer() { return &inputBuffer_; }
 
   Buffer* outputBuffer() { return &outputBuffer_; }
 
-//   void setCloseCallback(const CloseCallback& cb)
-//   { closeCallback_ = cb; }
+ 
 
   void connectEstablished(); //一旦connection 对象全都完成了 连接就绪时 就执行的接口
   void connectDestroyed();  //一旦connection 对象销毁时 就执行的接口

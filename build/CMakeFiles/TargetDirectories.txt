@@ -1,6 +1,8 @@
 /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/base.dir
 /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/net.dir
-/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/test.dir
-/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/run.dir
+/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/ser.dir
+/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/cli.dir
+/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/run_ser.dir
+/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/run_cli.dir
 /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/edit_cache.dir
 /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/rebuild_cache.dir

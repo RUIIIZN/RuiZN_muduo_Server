@@ -1,5 +1,6 @@
 #include "Acceptor.h"
-
+#include <string.h>
+#include <errno.h>
 #include <assert.h>
 
 namespace net
@@ -11,7 +12,14 @@ namespace net
       listening_(false),
       idleFd_(::open("dev/null", O_CLOEXEC | O_CREAT))
       {
-        assert(idleFd_ >= 0);
+        if(reuseport) {acceptSocket_.setReusePort(true);}
+
+        if (idleFd_ < 0)
+        {
+          fprintf(stderr, "Acceptor open /dev/null failed! errno: %d, reason: %s\n", errno, strerror(errno));
+        }
+        
+        //assert(idleFd_ >= 0);
         LOG_TRACE << "Acceptor::Acceptor() idleFd_ = " << idleFd_;
 
         acceptSocket_.setTcpNoDelay(true);

@@ -40,10 +40,35 @@ namespace net
 
     int sockets::connect(int sockfd, const struct sockaddr *addr)
     {
+        // int ret = ::connect(sockfd, addr, sizeof(struct sockaddr_in));
+        // if (ret < 0)
+        // {
+        //     LOG_SYSERR << "socket connect server failed";
+        // }
+        // return ret;
+
+        const struct sockaddr_in* ipv4 = reinterpret_cast<const struct sockaddr_in*>(addr);
+        char ip[64];
+        ::inet_ntop(AF_INET, &ipv4->sin_addr, ip, sizeof(ip));
+        uint16_t port = ntohs(ipv4->sin_port);
+        LOG_INFO << "即将连接到 IP: " << ip << ", Port: " << port;
         int ret = ::connect(sockfd, addr, sizeof(struct sockaddr_in));
         if (ret < 0)
         {
-            LOG_SYSERR << "socket connect server failed";
+        int savedErrno = errno; // 💡 先把全局变量 errno 存起来，防止被后面的其他系统调用覆盖
+        
+        // 🟢 过滤掉非阻塞模式下的正常状态
+        if (savedErrno == EINPROGRESS)
+        {
+            LOG_DEBUG << "Socket connect in progress (EINPROGRESS).";
+        }
+        else
+        {
+            // 🔴 真正的错误（如 ECONNREFUSED 等），通过 strerror 打印人类能看懂的信息
+            LOG_SYSERR << "socket connect server failed: " 
+                       << std::strerror(savedErrno) 
+                       << " (errno=" << savedErrno << ")";
+        }
         }
         return ret;
     }
@@ -124,7 +149,7 @@ namespace net
             ::close(sockfd);
         }
     }
-    void sockets::shutdownWrite(int sockfd);
+    //void sockets::shutdownWrite(int sockfd);
 
     void sockets::toIpPort(char *buf, size_t size, const struct sockaddr_in *addr)
     {
@@ -139,10 +164,34 @@ namespace net
         addr->sin_port = htons(port);
     }
 
-    void sockets::toIp(char *buf, size_t size, const struct sockaddr_in *addr)
+    //void sockets::toIp(char *buf, size_t size, const struct sockaddr_in *addr);
+
+    struct sockaddr_in sockets::getLocalAddr(int sockfd)
     {
-        
+        struct sockaddr_in localaddr;
+        memset(&localaddr, 0, sizeof localaddr);
+        socklen_t addrlen = static_cast<socklen_t>(sizeof localaddr);
+        if (::getsockname(sockfd, (sockaddr*)(&localaddr), &addrlen) < 0)
+        {
+            LOG_SYSERR << "sockets::getLocalAddr";
+        }
+        return localaddr;   
     }
+
+    struct sockaddr_in sockets::getPeerAddr(int sockfd)
+    {
+        struct sockaddr_in peeraddr;
+        memset(&peeraddr, 0, sizeof peeraddr);
+        socklen_t addrlen = static_cast<socklen_t>(sizeof peeraddr);
+        if (::getpeername(sockfd, (sockaddr*)(&peeraddr), &addrlen) < 0)
+        {
+            LOG_SYSERR << "sockets::getPeerAddr";
+        }
+        return peeraddr;
+    }
+
+
+
 
     void Socket::bindAddress(const InetAddress& localaddr)
     {
@@ -183,5 +232,6 @@ namespace net
         int opt = on ? 1 : 0;
         setsockopt(sockfd_, SOL_SOCKET, SO_KEEPALIVE, &opt, sizeof(opt));
     }
+
 
 }// namespace net

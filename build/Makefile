@@ -143,30 +143,56 @@ net/fast:
 .PHONY : net/fast
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named ser
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
+ser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ser
+.PHONY : ser
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+ser/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/build
+.PHONY : ser/fast
 
 #=============================================================================
-# Target rules for targets named run
+# Target rules for targets named cli
 
 # Build rule for target.
-run: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run
-.PHONY : run
+cli: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cli
+.PHONY : cli
 
 # fast build rule for target.
-run/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-.PHONY : run/fast
+cli/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/build
+.PHONY : cli/fast
+
+#=============================================================================
+# Target rules for targets named run_ser
+
+# Build rule for target.
+run_ser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_ser
+.PHONY : run_ser
+
+# fast build rule for target.
+run_ser/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_ser.dir/build.make CMakeFiles/run_ser.dir/build
+.PHONY : run_ser/fast
+
+#=============================================================================
+# Target rules for targets named run_cli
+
+# Build rule for target.
+run_cli: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_cli
+.PHONY : run_cli
+
+# fast build rule for target.
+run_cli/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_cli.dir/build.make CMakeFiles/run_cli.dir/build
+.PHONY : run_cli/fast
 
 base/log/LogStream.o: base/log/LogStream.cc.o
 .PHONY : base/log/LogStream.o
@@ -240,29 +266,53 @@ base/time/Timestamp.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/base/time/Timestamp.cc.s
 .PHONY : base/time/Timestamp.cc.s
 
-examples/test.o: examples/test.cc.o
-.PHONY : examples/test.o
+examples/cli.o: examples/cli.cc.o
+.PHONY : examples/cli.o
 
 # target to build an object file
-examples/test.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/examples/test.cc.o
-.PHONY : examples/test.cc.o
+examples/cli.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/examples/cli.cc.o
+.PHONY : examples/cli.cc.o
 
-examples/test.i: examples/test.cc.i
-.PHONY : examples/test.i
+examples/cli.i: examples/cli.cc.i
+.PHONY : examples/cli.i
 
 # target to preprocess a source file
-examples/test.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/examples/test.cc.i
-.PHONY : examples/test.cc.i
+examples/cli.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/examples/cli.cc.i
+.PHONY : examples/cli.cc.i
 
-examples/test.s: examples/test.cc.s
-.PHONY : examples/test.s
+examples/cli.s: examples/cli.cc.s
+.PHONY : examples/cli.s
 
 # target to generate assembly for a file
-examples/test.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/examples/test.cc.s
-.PHONY : examples/test.cc.s
+examples/cli.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/examples/cli.cc.s
+.PHONY : examples/cli.cc.s
+
+examples/ser.o: examples/ser.cc.o
+.PHONY : examples/ser.o
+
+# target to build an object file
+examples/ser.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/examples/ser.cc.o
+.PHONY : examples/ser.cc.o
+
+examples/ser.i: examples/ser.cc.i
+.PHONY : examples/ser.i
+
+# target to preprocess a source file
+examples/ser.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/examples/ser.cc.i
+.PHONY : examples/ser.cc.i
+
+examples/ser.s: examples/ser.cc.s
+.PHONY : examples/ser.s
+
+# target to generate assembly for a file
+examples/ser.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/examples/ser.cc.s
+.PHONY : examples/ser.cc.s
 
 net/Tcp/TcpClient.o: net/Tcp/TcpClient.cc.o
 .PHONY : net/Tcp/TcpClient.o
@@ -632,10 +682,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... run"
+	@echo "... run_cli"
+	@echo "... run_ser"
 	@echo "... base"
+	@echo "... cli"
 	@echo "... net"
-	@echo "... test"
+	@echo "... ser"
 	@echo "... base/log/LogStream.o"
 	@echo "... base/log/LogStream.i"
 	@echo "... base/log/LogStream.s"
@@ -645,9 +697,12 @@ help:
 	@echo "... base/time/Timestamp.o"
 	@echo "... base/time/Timestamp.i"
 	@echo "... base/time/Timestamp.s"
-	@echo "... examples/test.o"
-	@echo "... examples/test.i"
-	@echo "... examples/test.s"
+	@echo "... examples/cli.o"
+	@echo "... examples/cli.i"
+	@echo "... examples/cli.s"
+	@echo "... examples/ser.o"
+	@echo "... examples/ser.i"
+	@echo "... examples/ser.s"
 	@echo "... net/Tcp/TcpClient.o"
 	@echo "... net/Tcp/TcpClient.i"
 	@echo "... net/Tcp/TcpClient.s"

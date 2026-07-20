@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cli.dir/examples/cli.cc.o -o cli  libnet.a libbase.a -lpthread

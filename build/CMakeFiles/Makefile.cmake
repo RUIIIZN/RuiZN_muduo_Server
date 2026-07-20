@@ -117,6 +117,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/base.dir/DependInfo.cmake"
   "CMakeFiles/net.dir/DependInfo.cmake"
-  "CMakeFiles/test.dir/DependInfo.cmake"
-  "CMakeFiles/run.dir/DependInfo.cmake"
+  "CMakeFiles/ser.dir/DependInfo.cmake"
+  "CMakeFiles/cli.dir/DependInfo.cmake"
+  "CMakeFiles/run_ser.dir/DependInfo.cmake"
+  "CMakeFiles/run_cli.dir/DependInfo.cmake"
   )

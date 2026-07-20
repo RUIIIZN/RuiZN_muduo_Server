@@ -11,6 +11,9 @@ class InetAddress
     public:
         explicit InetAddress(uint16_t port = 0);
 
+        explicit InetAddress(const struct sockaddr_in& addr)
+        : addr_(addr){ }
+
         InetAddress(const std::string ip, uint16_t port);//将字符串转换为sockaddr_in结构体
 
         std::string toIpPort() const;//讲网络地址结构转换为字符串

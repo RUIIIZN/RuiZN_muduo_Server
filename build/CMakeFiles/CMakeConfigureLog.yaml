@@ -23,7 +23,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -38,7 +38,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/uname"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/uname"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/uname"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/uname"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/uname"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
@@ -49,7 +49,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -91,7 +91,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -106,7 +106,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/gmake"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gmake"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gmake"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/gmake"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/gmake"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
@@ -120,7 +120,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/make"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/make"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/make"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/make"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/make"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/make"
       - "/usr/local/sbin/make"
       - "/usr/local/bin/make"
@@ -131,7 +131,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -174,7 +174,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -189,7 +189,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/c++"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/c++"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/c++"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/c++"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/c++"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/c++"
       - "/usr/local/sbin/c++"
       - "/usr/local/bin/c++"
@@ -200,7 +200,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -241,7 +241,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -298,7 +298,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -314,7 +314,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -349,7 +349,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -365,7 +365,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -400,7 +400,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -416,7 +416,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -451,7 +451,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -467,7 +467,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -502,7 +502,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -518,7 +518,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -553,7 +553,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -569,7 +569,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -604,7 +604,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -620,7 +620,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -655,7 +655,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -671,7 +671,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -706,7 +706,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -721,7 +721,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/dlltool"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/dlltool"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/dlltool"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
@@ -737,7 +737,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -772,7 +772,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -788,7 +788,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -823,7 +823,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -838,7 +838,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/tapi"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/tapi"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/tapi"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/tapi"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/tapi"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
@@ -854,7 +854,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -892,7 +892,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -907,7 +907,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-9.4"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-9.4"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-9.4"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/gcc-ar-9.4"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/gcc-ar-9.4"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/gcc-ar-9.4"
       - "/usr/local/sbin/gcc-ar-9.4"
       - "/usr/local/bin/gcc-ar-9.4"
@@ -923,7 +923,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -961,7 +961,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -976,7 +976,7 @@ events:
       - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-9.4"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-9.4"
       - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-9.4"
-      - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli/gcc-ranlib-9.4"
+      - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli/gcc-ranlib-9.4"
       - "/home/ruizn/.nvm/versions/node/v24.14.0/bin/gcc-ranlib-9.4"
       - "/usr/local/sbin/gcc-ranlib-9.4"
       - "/usr/local/bin/gcc-ranlib-9.4"
@@ -992,7 +992,7 @@ events:
         - "/home/ruizn/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.2/bin"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/ruizn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ruizn/.vscode-server/cli/servers/Stable-125df4672b8a6a34975303c6b0baa124e560a4f7/server/bin/remote-cli"
+        - "/home/ruizn/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli"
         - "/home/ruizn/.nvm/versions/node/v24.14.0/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -1012,8 +1012,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-3L6Axw"
-      binary: "/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-3L6Axw"
+      source: "/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-lBPZ4C"
+      binary: "/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-lBPZ4C"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1024,13 +1024,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-3L6Axw'
+        Change Dir: '/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-lBPZ4C'
         
-        Run Build Command(s): /snap/cmake/1556/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_544eb/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_544eb.dir/build.make CMakeFiles/cmTC_544eb.dir/build
-        make[1]: Entering directory '/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-3L6Axw'
-        Building CXX object CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1556/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /snap/cmake/1556/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1dec2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1dec2.dir/build.make CMakeFiles/cmTC_1dec2.dir/build
+        make[1]: Entering directory '/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-lBPZ4C'
+        Building CXX object CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1556/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -1039,8 +1039,8 @@ events:
         Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
         Thread model: posix
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1556/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccenx3Ck.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1556/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccut25aI.s
         GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
         
@@ -1064,14 +1064,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         as -v --64 -o CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccenx3Ck.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccut25aI.s
         GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        Linking CXX executable cmTC_544eb
-        /snap/cmake/1556/bin/cmake -E cmake_link_script CMakeFiles/cmTC_544eb.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_1dec2
+        /snap/cmake/1556/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dec2.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -1083,14 +1083,14 @@ events:
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_544eb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmlvviM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_544eb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1dec2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUU2Mlj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1dec2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
         collect2 version 9.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmlvviM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_544eb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUU2Mlj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1dec2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.34
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_544eb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_544eb
-        make[1]: Leaving directory '/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-3L6Axw'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1dec2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1dec2
+        make[1]: Leaving directory '/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-lBPZ4C'
         
       exitCode: 0
   -
@@ -1131,13 +1131,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-3L6Axw']
+        ignore line: [Change Dir: '/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-lBPZ4C']
         ignore line: []
-        ignore line: [Run Build Command(s): /snap/cmake/1556/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_544eb/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_544eb.dir/build.make CMakeFiles/cmTC_544eb.dir/build]
-        ignore line: [make[1]: Entering directory '/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-3L6Axw']
-        ignore line: [Building CXX object CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1556/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /snap/cmake/1556/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1dec2/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_1dec2.dir/build.make CMakeFiles/cmTC_1dec2.dir/build]
+        ignore line: [make[1]: Entering directory '/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles/CMakeScratch/TryCompile-lBPZ4C']
+        ignore line: [Building CXX object CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1556/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -1146,8 +1146,8 @@ events:
         ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1556/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccenx3Ck.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1556/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccut25aI.s]
         ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
         ignore line: []
@@ -1171,14 +1171,14 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccenx3Ck.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccut25aI.s]
         ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking CXX executable cmTC_544eb]
-        ignore line: [/snap/cmake/1556/bin/cmake -E cmake_link_script CMakeFiles/cmTC_544eb.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_1dec2]
+        ignore line: [/snap/cmake/1556/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dec2.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -1190,13 +1190,13 @@ events:
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_544eb' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmlvviM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_544eb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1dec2' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUU2Mlj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1dec2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccmlvviM.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccUU2Mlj.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1214,7 +1214,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_544eb] ==> ignore
+          arg [cmTC_1dec2] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
@@ -1227,7 +1227,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1238,9 +1238,9 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 9.4.0]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmlvviM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_544eb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmlvviM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_544eb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> linker architecture flags [-m;elf]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmlvviM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_544eb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_544eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUU2Mlj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1dec2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUU2Mlj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1dec2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUU2Mlj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1dec2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_1dec2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld -m;elf
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]

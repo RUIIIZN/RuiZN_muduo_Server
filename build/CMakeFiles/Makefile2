@@ -65,13 +65,15 @@ CMAKE_BINARY_DIR = /home/ruizn/mycode/RuiZN_Server/build
 # The main recursive "all" target.
 all: CMakeFiles/base.dir/all
 all: CMakeFiles/net.dir/all
-all: CMakeFiles/test.dir/all
+all: CMakeFiles/ser.dir/all
+all: CMakeFiles/cli.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/base.dir/codegen
 codegen: CMakeFiles/net.dir/codegen
-codegen: CMakeFiles/test.dir/codegen
+codegen: CMakeFiles/ser.dir/codegen
+codegen: CMakeFiles/cli.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -81,8 +83,10 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/base.dir/clean
 clean: CMakeFiles/net.dir/clean
-clean: CMakeFiles/test.dir/clean
-clean: CMakeFiles/run.dir/clean
+clean: CMakeFiles/ser.dir/clean
+clean: CMakeFiles/cli.dir/clean
+clean: CMakeFiles/run_ser.dir/clean
+clean: CMakeFiles/run_cli.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -124,7 +128,7 @@ CMakeFiles/base.dir/clean:
 CMakeFiles/net.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target net"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target net"
 .PHONY : CMakeFiles/net.dir/all
 
 # Build rule for subdir invocation for target.
@@ -141,7 +145,7 @@ net: CMakeFiles/net.dir/rule
 # codegen rule for target.
 CMakeFiles/net.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Finished codegen for target net"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Finished codegen for target net"
 .PHONY : CMakeFiles/net.dir/codegen
 
 # clean rule for target.
@@ -150,69 +154,134 @@ CMakeFiles/net.dir/clean:
 .PHONY : CMakeFiles/net.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test.dir
+# Target rules for target CMakeFiles/ser.dir
 
 # All Build rule for target.
-CMakeFiles/test.dir/all: CMakeFiles/base.dir/all
-CMakeFiles/test.dir/all: CMakeFiles/net.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num=21,22 "Built target test"
-.PHONY : CMakeFiles/test.dir/all
+CMakeFiles/ser.dir/all: CMakeFiles/base.dir/all
+CMakeFiles/ser.dir/all: CMakeFiles/net.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num=23,24 "Built target ser"
+.PHONY : CMakeFiles/ser.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test.dir/rule: cmake_check_build_system
+CMakeFiles/ser.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles 22
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles 0
-.PHONY : CMakeFiles/test.dir/rule
+.PHONY : CMakeFiles/ser.dir/rule
 
 # Convenience name for target.
-test: CMakeFiles/test.dir/rule
-.PHONY : test
+ser: CMakeFiles/ser.dir/rule
+.PHONY : ser
 
 # codegen rule for target.
-CMakeFiles/test.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num=21,22 "Finished codegen for target test"
-.PHONY : CMakeFiles/test.dir/codegen
+CMakeFiles/ser.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num=23,24 "Finished codegen for target ser"
+.PHONY : CMakeFiles/ser.dir/codegen
 
 # clean rule for target.
-CMakeFiles/test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
-.PHONY : CMakeFiles/test.dir/clean
+CMakeFiles/ser.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/clean
+.PHONY : CMakeFiles/ser.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/run.dir
+# Target rules for target CMakeFiles/cli.dir
 
 # All Build rule for target.
-CMakeFiles/run.dir/all: CMakeFiles/test.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num= "Built target run"
-.PHONY : CMakeFiles/run.dir/all
+CMakeFiles/cli.dir/all: CMakeFiles/base.dir/all
+CMakeFiles/cli.dir/all: CMakeFiles/net.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num=5,6 "Built target cli"
+.PHONY : CMakeFiles/cli.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/run.dir/rule: cmake_check_build_system
+CMakeFiles/cli.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles 22
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cli.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles 0
-.PHONY : CMakeFiles/run.dir/rule
+.PHONY : CMakeFiles/cli.dir/rule
 
 # Convenience name for target.
-run: CMakeFiles/run.dir/rule
-.PHONY : run
+cli: CMakeFiles/cli.dir/rule
+.PHONY : cli
 
 # codegen rule for target.
-CMakeFiles/run.dir/codegen: CMakeFiles/test.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num= "Finished codegen for target run"
-.PHONY : CMakeFiles/run.dir/codegen
+CMakeFiles/cli.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num=5,6 "Finished codegen for target cli"
+.PHONY : CMakeFiles/cli.dir/codegen
 
 # clean rule for target.
-CMakeFiles/run.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/clean
-.PHONY : CMakeFiles/run.dir/clean
+CMakeFiles/cli.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/clean
+.PHONY : CMakeFiles/cli.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/run_ser.dir
+
+# All Build rule for target.
+CMakeFiles/run_ser.dir/all: CMakeFiles/ser.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_ser.dir/build.make CMakeFiles/run_ser.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_ser.dir/build.make CMakeFiles/run_ser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num= "Built target run_ser"
+.PHONY : CMakeFiles/run_ser.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/run_ser.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_ser.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles 0
+.PHONY : CMakeFiles/run_ser.dir/rule
+
+# Convenience name for target.
+run_ser: CMakeFiles/run_ser.dir/rule
+.PHONY : run_ser
+
+# codegen rule for target.
+CMakeFiles/run_ser.dir/codegen: CMakeFiles/ser.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_ser.dir/build.make CMakeFiles/run_ser.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num= "Finished codegen for target run_ser"
+.PHONY : CMakeFiles/run_ser.dir/codegen
+
+# clean rule for target.
+CMakeFiles/run_ser.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_ser.dir/build.make CMakeFiles/run_ser.dir/clean
+.PHONY : CMakeFiles/run_ser.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/run_cli.dir
+
+# All Build rule for target.
+CMakeFiles/run_cli.dir/all: CMakeFiles/cli.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_cli.dir/build.make CMakeFiles/run_cli.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_cli.dir/build.make CMakeFiles/run_cli.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num= "Built target run_cli"
+.PHONY : CMakeFiles/run_cli.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/run_cli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_cli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruizn/mycode/RuiZN_Server/build/CMakeFiles 0
+.PHONY : CMakeFiles/run_cli.dir/rule
+
+# Convenience name for target.
+run_cli: CMakeFiles/run_cli.dir/rule
+.PHONY : run_cli
+
+# codegen rule for target.
+CMakeFiles/run_cli.dir/codegen: CMakeFiles/cli.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_cli.dir/build.make CMakeFiles/run_cli.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ruizn/mycode/RuiZN_Server/build/CMakeFiles --progress-num= "Finished codegen for target run_cli"
+.PHONY : CMakeFiles/run_cli.dir/codegen
+
+# clean rule for target.
+CMakeFiles/run_cli.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_cli.dir/build.make CMakeFiles/run_cli.dir/clean
+.PHONY : CMakeFiles/run_cli.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

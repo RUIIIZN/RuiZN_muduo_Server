@@ -18,10 +18,13 @@ TcpConnection::TcpConnection(EventLoop* loop,
                 const InetAddress& peerAddr):
     name_(name),
     loop_(loop),
+    state_(KConnecting),
     socket_(new Socket(sockfd)),
     localAddr_(localAddr),
     peerAddr_(peerAddr),
-    channel_(new Channel(loop, sockfd))
+    reading_(true),
+    channel_(new Channel(loop, sockfd)),
+    highWaterMark_(1)
 {
     //设置套接字
     socket_->setKeepAlive(true);
@@ -38,18 +41,18 @@ TcpConnection::~TcpConnection()
     assert(state_ == KDisconnected);
 }
 
- bool TcpConnection::getTcpInfo(struct tcp_info* tcpi) const
- {
-    return socket_->getTcpInfo(tcpi);
- }
+//  bool TcpConnection::getTcpInfo(struct tcp_info* tcpi) const
+//  {
+//     return socket_->getTcpInfo(tcpi);
+//  }
 
-std::string TcpConnection::getTcpInfoString() const
-{
-    char buf[1024];
-    buf[0] = '\0';
-    socket_->getTcpInfoString(buf, sizeof buf);
-    return buf;
-}
+// std::string TcpConnection::getTcpInfoString() const
+// {
+//     char buf[1024];
+//     buf[0] = '\0';
+//     socket_->getTcpInfoString(buf, sizeof buf);
+//     return buf;
+// }
 
 void TcpConnection::send(Buffer* message)
 {
@@ -151,24 +154,24 @@ void TcpConnection::sendInLoop(const void* message, size_t len)
 
 
 // 关闭连接操作
-void TcpConnection::shutdown()
-{
-    if (state_ == KConnected)
-    {
-     setState(KDisconnecting);
-     loop_->runInLoop(std::bind(&TcpConnection::shutdownInLoop, shared_from_this()));
-    }
+// void TcpConnection::shutdown()
+// {
+//     if (state_ == KConnected)
+//     {
+//      setState(KDisconnecting);
+//      loop_->runInLoop(std::bind(&TcpConnection::shutdownInLoop, shared_from_this()));
+//     }
 
-}
+// }
 
-void TcpConnection::shutdownInLoop()
-{
-    loop_->assertInLoopThread();
-    if (!channel_->isWriting())
-    {
-      socket_->shutdownWrite();
-    }
-}
+// void TcpConnection::shutdownInLoop()
+// {
+//     loop_->assertInLoopThread();
+//     if (!channel_->isWriting())
+//     {
+//       socket_->shutdownWrite();
+//     }
+// }
 
 void TcpConnection::forceClose()
 {
@@ -332,7 +335,7 @@ void TcpConnection::handleWrite()//设置channel 的 写事件回调
                 }
                 if (state_ == KDisconnecting)
                 {
-                    shutdownInLoop();
+                    forceCloseInLoop();
                 }
             }
         }

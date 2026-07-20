@@ -1,2 +1,3 @@
 # Hashes of file build rules.
-7caffedbc699f85c234dcb7761f682ea CMakeFiles/run
+ea2c93ec7f2949480ce225650c60e771 CMakeFiles/run_cli
+fd579486cabe9f3c214c7a0aebf60b3f CMakeFiles/run_ser

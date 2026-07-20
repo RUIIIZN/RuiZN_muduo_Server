@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test.dir/examples/test.cc.o -o test  libnet.a libbase.a -lpthread

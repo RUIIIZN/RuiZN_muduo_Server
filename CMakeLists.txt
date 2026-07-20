@@ -8,7 +8,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # -------------------------------------------------------------------
 # 1. 头文件包含路径 (Include Directories)
 # -------------------------------------------------------------------
-# 这样你在代码里就可以直接写 #include "base/time/Timestamp.h" 或 "net/timer/Timer.h"
 include_directories(
     ${PROJECT_SOURCE_DIR}
 )
@@ -39,20 +38,29 @@ add_library(base STATIC ${BASE_SOURCES})
 add_library(net STATIC ${NET_SOURCES})
 
 # -------------------------------------------------------------------
-# 5. 编译测试程序
+# 5. 编译服务端与客户端可执行程序
 # -------------------------------------------------------------------
-# 根据你截图的目录结构，test.cc 位于 examples/test.cc 
-# (如果实际在 tests/test.cc，请将路径改为 tests/test.cc)
-add_executable(test examples/test.cc)
+# 5.1 编译服务端程序 ser
+add_executable(ser examples/ser.cc)
+target_link_libraries(ser net base pthread)
 
-# 链接静态库。注意：net 依赖 base，所以 net 写在前面，base 写在后面
-target_link_libraries(test net base pthread)
+# 5.2 编译客户端程序 cli
+add_executable(cli examples/cli.cc)
+target_link_libraries(cli net base pthread)
 
 # -------------------------------------------------------------------
-# 6. 一键运行命令：make run
+# 6. 一键运行命令：make run_ser / make run_cli
 # -------------------------------------------------------------------
-add_custom_target(run
-    COMMAND ./test
-    DEPENDS test
+# 6.1 一键运行服务端
+add_custom_target(run_ser
+    COMMAND ./ser
+    DEPENDS ser
+    WORKING_DIRECTORY ${PROJECT_BINARY_DIR}
+)
+
+# 6.2 一键运行客户端
+add_custom_target(run_cli
+    COMMAND ./cli
+    DEPENDS cli
     WORKING_DIRECTORY ${PROJECT_BINARY_DIR}
 )

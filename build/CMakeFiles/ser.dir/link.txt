@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ser.dir/examples/ser.cc.o -o ser  libnet.a libbase.a -lpthread

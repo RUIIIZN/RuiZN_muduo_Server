@@ -249,8 +249,7 @@ void EventLoop::handleRead()
 
 void EventLoop::assertInLoopThread()
 {
-  LOG_DEBUG << "Loop threadId_: " << threadId_ 
-              << ", Current thread tid: " << ::gettid();
+    LOG_DEBUG << "Loop threadId_: " << threadId_ << ", Current thread tid: " << ::gettid();
     assert(isInLoopThread());
     LOG_DEBUG << "EventLoop assertInLoopThread" << this;
 }
