@@ -1,14 +1,6 @@
-一份优秀的 GitHub C++ 项目 README 应该具备结构清晰、重点突出且易于快速构建复现的特点。
-
-根据你的项目（基于 Muduo 的高并发网络服务器），为你设计了一份标准的 README.md 模板。你可以直接复制并根据项目的实际实现补充细节：
-
-📝 README.md 模板
-Markdown
 # RuiZN Muduo Server
 
-[![Language](https://img.shields.io/badge/Language-C++11-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B11)
-[![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey.svg)](https://www.linux.org/)
-[![Build](https://img.shields.io/badge/Build-CMake-brightgreen.svg)](https://cmake.org/)
+git clone [https://github.com/RUIIIZN/RuiZN_muduo_Server.git](https://github.com/RUIIIZN/RuiZN_muduo_Server.git)
 
 这是一个基于 **Muduo 网络库** 和 **C++11 / 17** 实现的高并发网络服务器框架/系统。项目采用了非阻塞 I/O 多路复用（epoll）与多线程 Reactor 模型，旨在提供高性能、低延迟的并发网络请求处理能力。
 
